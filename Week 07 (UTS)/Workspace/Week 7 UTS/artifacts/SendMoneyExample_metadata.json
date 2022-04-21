@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SendMoneyExample.sol": "SendMoneyExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SendMoneyExample.sol": {
+			"keccak256": "0xcc7d387233114498d98901eccc2a799b2a877bd71433c409385d4462d104ea4e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3dc601efc36b6706b8cbca1f8ae6c68b1ceb86f7fd374a3c9d3c80149b8cf7e1",
+				"dweb:/ipfs/QmbqbKk7KVKd48Q6ECGoiT9KmSX44YkVH9dYvTEuGkpGr2"
+			]
+		}
+	},
+	"version": 1
+}

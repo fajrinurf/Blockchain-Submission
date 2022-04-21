@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RolloverExample.sol": "RolloverExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RolloverExample.sol": {
+			"keccak256": "0x46a673bc62e2f11133de71aa6d87936c86b023d6901fa25d39427dd56dd07cf2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://daae915317958425f6d15c5fc5ca2809ac0dd7300bef2eebab9656de6adb52b5",
+				"dweb:/ipfs/QmQ8pb8NaEtkkGVXNdLEeX1WgAdUE77hbgVicUKQRrwV4C"
+			]
+		}
+	},
+	"version": 1
+}

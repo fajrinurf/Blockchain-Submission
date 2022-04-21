@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_itemIndex",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_step",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "SupplyChainStep",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_identifier",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					}
+				],
+				"name": "createItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "items",
+				"outputs": [
+					{
+						"internalType": "contract Item",
+						"name": "_item",
+						"type": "address"
+					},
+					{
+						"internalType": "enum ItemManager.SupplyChainSteps",
+						"name": "_step",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_identifier",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "triggerDelivery",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "triggerPayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ItemManager.sol": "ItemManager"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Item.sol": {
+			"keccak256": "0x7734ac8522abe80491f1b0784f36def96597871c8615ddc4fd7b760b5504dd03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46cb1a0404ee40de9e46b68e5683ce25fbf70144af0536ff2c7afc2be39789ae",
+				"dweb:/ipfs/QmQBsnuFAFHueVrWJ7PkambsG6RjaVNuK4v7U82EitwAMs"
+			]
+		},
+		"ItemManager.sol": {
+			"keccak256": "0x2d65a9cfe754d02524872dd156db18dc524467e52ac9268fe0fea24663ea609e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://866d7612d526c640b71ab088bb8558355eb1639d086d7a5e74d2415959ff2b19",
+				"dweb:/ipfs/QmXFMX3Dcf2toktqpSS5iMW6x4engHj3Hb4p2GRj7LHuck"
+			]
+		}
+	},
+	"version": 1
+}
